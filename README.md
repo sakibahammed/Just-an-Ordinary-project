@@ -33,3 +33,32 @@ Power of JS :
 
 
     // Hoisting includes ; function() , function* , async-function , async-function*
+
+# Variable Naming Rules : 
+
+    Use Descriptive names : Choose meaning full variable naming convension
+    Like declaring a persons age : 
+
+        let age = 25;
+        const name = sakib;
+
+    Use camel case for multiple word in variable , 
+
+        let firstWord = 'Hello world' ;
+    
+    Avoid reserved word : 
+        let let=5 // Here i use let as a variable name;
+        
+    Be consistent :
+
+        consistent naming convention throughout the code base
+    
+    
+    Use meaningful variable names : 
+
+        Choose variable names according
+
+    Avoid Single letter variable names (except in certain cases) :
+        Single letter variable names are legal but not accepted 
+
+    
