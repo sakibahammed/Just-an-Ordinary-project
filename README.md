@@ -26,3 +26,10 @@ Power of JS :
 # Javascript - version :
 
     Achieve ECMA standard in 1997 and become ECMAscript , it has ES1 , ES2 , ES3 , ES5 , ES6
+
+# Hoisting : 
+
+    JavaScript Hoisting means that before executing the code, the interpreter moves the declarations of functions, variables, classes, or imports to the top of their scope.
+
+
+    // Hoisting includes ; function() , function* , async-function , async-function*
