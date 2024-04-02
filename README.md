@@ -58,7 +58,16 @@ Power of JS :
 
         Choose variable names according
 
-    Avoid Single letter variable names (except in certain cases) :
+    Avoid Single letter variable names (except in certain cases):
         Single letter variable names are legal but not accepted 
 
+#Variable Scopes : 
+
+    Variable scope refers to the region or context in the code where a variable is defined and can be accessed. 
+
+        simple term :   where a variable is available to access in code
+
+        
+
     
+  
