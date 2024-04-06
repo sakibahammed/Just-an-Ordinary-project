@@ -88,20 +88,20 @@ Power of JS :
 # Number 
     These are numeric values , both integers , floating point numbers 
 
-    ```
+  
         let number = 10;
         let smallNumber = 23;
         let floatingNumber = 23.42;
         let integer = 1;
-    ```
+    
 
 # String 
     This is mainly string. Represent text data and values withing quotes ( single or Double )
 
-    ```
+
         let javascript = 'Hello mom';
         let helloWorld = 'Hello world';
-    ```
+
 
 
 
