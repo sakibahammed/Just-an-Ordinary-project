@@ -65,9 +65,23 @@ Power of JS :
 
     Variable scope refers to the region or context in the code where a variable is defined and can be accessed. 
 
-        simple term :   where a variable is available to access in code
+        simple term :   where a variable is available to access in js code.
+
+
+    Global Scope : 
+        Variable declared outside of any function or block , They can be accesed from any where of the code.
+    
+    Block Scope : 
+        Variables declared using let Const have block scope. 
+        Block scope refers to any code block enclosed in braces ' {} ' such as loops. ( for , while ). Conditional statements ('if' , 'else') . Functional blocks
+    
+    Lexical Scope : 
+
+        Static Scope , Lexical scope means that the accessibility of variables is determined by their location within the code when its written. 
+    
+
+
 
         
 
     
-  
