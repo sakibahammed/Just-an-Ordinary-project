@@ -103,6 +103,31 @@ Power of JS :
         let helloWorld = 'Hello world';
 
 
+# Boolean 
+    Only show True and False 
+
+        let isLooged = true;
+        let isOpen = false;
+
+# Undefined 
+    
+    A variable that has been declared but not assigned a value
+
+    let x;
+    console.log(x);
+
+# Null : 
+
+    Absence of any value; 
+
+        let y = null;
+
+# Symbol : 
+
+    Originated from ES6+ , Requesting unique identifier, Useful for creating object properties that are hidden from enumeration. 
+
+# BigInt : 
+    Originated from ES11+ represent whole larger than the maximum safe integer provided by the number type
 
 
         
