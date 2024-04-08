@@ -244,7 +244,37 @@ Power of JS :
             let obj = {
                 test : undefined;
             }
+# looping On Object
 
+
+
+    use for..in for looping on object
+
+        let users = {
+                name : 'jhon',
+                age : 30 , 
+                isAdmin : true
+        };
+
+        for(name in users){
+            console.log(name);
+        }
+
+
+# Ordered like an Object;
+
+        let codes = {
+            '49' : 'Germany',
+            '48' : 'Dhaka',
+            '1' : 'nepal'
+        }
+
+    for(let code in codes){
+        console.log(code) // 1 , 48 ,49 // Here everything is sorted by default.
+    } 
+    
+    // To fix this solution just add a non-integer symbol before this 
+ 
 
 
 
