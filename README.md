@@ -6,7 +6,7 @@ Nothing Interest , I am bored thats why i create this.  and the name of this pro
 
 # What the heck is Javascript : 
 
-
+ 
 <p>  Javascript is a dynamically typed , multi-paradigm , prototypical based , oop,  high level , interpreted asynchronus programming language which have Cross - platform capability , can be used in both server and client a Great programming Language I Loved </p>
 
 Power of JS : 
@@ -131,5 +131,123 @@ Power of JS :
 
 
         
+# Object Object Object
+    
+    - Non Primitive Data type. 
+    - Empty object can be created using one of two syntax;
+
+    Empty Object : 
+        
+        // Creating an empty object
+
+            let user = new Object();
+            let user1 = {};
 
     
+    Object carries key values pair. 
+
+    let object = {
+        key : value,
+        key1 : value1
+    };
+
+    Get or access object keys and values from object
+
+    console.log(object.key);
+
+    console.log(object.key1);
+
+
+    a object can carry any things (a object values can be : String , Int , Floating point , Boolean , Symbol === Any thing);
+
+
+
+    set a key-value pair in a object
+
+        user.isAdmin = true;
+
+    Remove a property from Object 
+        
+        delete object.key
+
+    Using multiword property names , need to be quoted : 
+
+        let user = {
+            mom : 'Hello Mom',
+            "likes bird" : true
+        } 
+
+    Square brackets :
+
+        for multiple word properties dot notation wont work . use bracket notation
+
+        console.log(user['mom']);
+
+        delete user['likes bird'];
+
+# Object on user input and declaration 
+
+        let name = prompt("What is your name");
+        let age = prompt('What is your age');
+
+
+        let user = {
+            [name] : [age];
+        }
+
+    //  here bracket notation helps to get values from the user or code base;
+
+
+# Property value shorthand:
+
+    Using existing variables as values : 
+
+        function makeUser(name, age) {
+                return {
+                    name: name,
+                    age: age,
+                    // ...other properties
+                };
+                }
+
+            let user = makeUser("John", 30);
+    
+# Property Name limitations : 
+   there is no limitations when declaring as a property . They are automatically converts in to string
+
+
+
+# find out if a property exists in a object ; 
+
+    if dont find out that it will return undefined
+    use in method to check ;
+
+        let user = {
+                name : 'jhon',
+                age : 13
+        }
+
+        console.log( age  in user) // it will return true 
+
+        We can also use undefined as a check mathod , 
+
+        like , 
+
+            console.log(user.name === undefined);
+        
+
+        But in method always works correctly here , 
+
+            like if a object has a property that already have a value as undefined that it will become true.. so in is good
+
+        I am talking about this , 
+            let obj = {
+                test : undefined;
+            }
+
+
+
+
+     
+
+
