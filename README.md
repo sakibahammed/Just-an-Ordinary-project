@@ -278,9 +278,19 @@ Power of JS :
 
 # Prototypal inheritance
 
-   <p style="color:tomato"> Prototypal inheritance allows object to inherit properties and methods from other object </p>
+ Prototypal inheritance allows object to inherit properties and methods from other object 
 
 
      
+
+   Lets imagine ,  we have some toys ,  Each toy has some special ability like they can talk or dance . suppose those 2 toys are honey and bunny.. Honey can sing and dance and play..
+   
+   
+    After someday i was so bored playing with those , I felt that i need to create a new toy and named him Iron Man. but i felt that Iron man need to sing and dance. Training him again can take some time. So what can we do , We can take Honey and turn him into Ironman and in this way we can save and also teach Iron man how to sing and dance. 
+
+
+    so like this .. We can create a object and that if we need to create another object that needs previously created object's keys we can simply inherit previously created object
+
+     We use what we already have to make new things
 
 
