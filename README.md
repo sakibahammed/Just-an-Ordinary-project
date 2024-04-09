@@ -276,6 +276,9 @@ Power of JS :
     // To fix this solution just add a non-integer symbol before this 
  
 
+# Prototypal inheritance
+
+   <p style="color:tomato"> Prototypal inheritance allows object to inherit properties and methods from other object </p>
 
 
      
