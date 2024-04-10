@@ -294,3 +294,42 @@ Power of JS :
      We use what we already have to make new things
 
 
+# Built in Objects
+    Also called Global Objects , 
+
+        built in the language specification itself.
+
+        
+     There are numerous built in object with the Javascript language. 
+
+
+        <ul>
+
+            <li>Number</li>
+            <li>Math</li>
+            <li>Date</li>
+            <li>String</li>
+            <li>Function</li>
+            <li>Error</li>
+            <li>Boolean</li>
+        
+        </ul>
+
+# Standard built in objects 
+
+    Javascript standard, built-in object , including their methods and properties.
+
+    Global object can be accessed using this operator in the global scope. The global scope consists of the properties of the global object, including inherited properties.  
+
+
+    By category : 
+
+    <h1>Value properties</h1>
+
+       - globalThis
+       - Infinity
+       - NaN
+       - undefined
+
+    <h1>globalThis : </h1>
+        the globalThis , Global property contains the global this value , 
