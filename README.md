@@ -349,3 +349,60 @@ Power of JS :
         ==> typeof returns a string always
 
 
+
+
+
+# Type Casting 
+
+        Type conversion means the transfer of data from one data type to another data type.
+
+            -- like String to int 
+            -- float to int
+            -- int to string etc etc.
+
+            String Conversion :     
+
+                boolean to string 
+                 like , 
+                    let value  = true;
+                    
+                    value = String(value),
+
+            Numeric Conversion: 
+
+                just use Number() in this way
+
+                    value = Number(value)
+                
+
+                Number('A quick brown fox jumps over the lazy dog');
+                // as its a string an cannot turn into a number
+
+                just use it like in this way , 
+            
+            console.log(Number('123'));
+            console.log(Number('123z')) //return a NaN as z cannt be turn into in a number
+
+            console.log(Number(true)) // 1
+            console.log(Number(false)) // 0
+
+            
+
+
+            Boolean conversion : 
+
+            console.log(Boolean(1)) // true
+            console.log(Boolean(0)) // false
+            console.log(Boolean('hello')) // true
+            console.log(Boolean('')) // false
+
+
+            // Any truthy value is casting in True
+            // Any falsy value is casting in false
+    Read this for more : [text](https://javascript.info/type-conversions)
+
+    
+            
+
+
+
