@@ -333,3 +333,19 @@ Power of JS :
 
     <h1>globalThis : </h1>
         the globalThis , Global property contains the global this value , 
+
+
+
+
+
+
+
+
+# typeOf Operator
+
+    Return or tell about the type of operand's value , 
+
+        ==> simply say about the type or what the heck is this .
+        ==> typeof returns a string always
+
+
