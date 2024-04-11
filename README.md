@@ -459,5 +459,7 @@ Power of JS :
     --Loops and Iterations: 
 
         for - loop : we all know what is for loop
+        while loop : you know while loop
+        do while loop : you know also
 
 
