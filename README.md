@@ -451,3 +451,13 @@ Power of JS :
 
 
 
+
+
+
+# All About Loops in Javascript : 
+
+    --Loops and Iterations: 
+
+        for - loop : we all know what is for loop
+
+
