@@ -429,5 +429,25 @@ Power of JS :
 
         
 
+# Explicit Type Casting (Coercion) 
+
+    Commonly reffered as coercion. Involves using built in function or operators to convert a value from one type to another.   
+
+        var x ='10';
+        var y = 10.5;
+        
+        console.log(parseInt(x));
+        console.log(parseInt(y));
+        console.log(y.toString());
+
+# Implicit Type Casting 
+    under the hood type casting. Performs implicit type casting. conversion between types is automatically handled by the language during operation.
+
+
+        let a = '1';
+        let b = 2;
+
+        let sum = a+b // 12 
+
 
 
