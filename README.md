@@ -401,8 +401,33 @@ Power of JS :
             // Any falsy value is casting in false
     Read this for more : [text](https://javascript.info/type-conversions)
 
-    
-            
+
+# Type coercion 
+
+    automatic or implicit conversion of one values from one data type to another (
+        String to numbers . 
+        Numbers to String .
+
+    )
+
+
+            Type Coercion example : 
+
+                let a = '1';
+                let b = 2;
+
+                let sum = a+b // 12 
+
+                    here js coerced the 2 from e Number to String than concat two number together.
+
+
+
+
+# Type Conversion 
+
+        Means transfer of data from one data type to another . Here implicit conversion happend when the compiler (for complied language) or runtime (or script language like Javascript)
+
+        
 
 
 
