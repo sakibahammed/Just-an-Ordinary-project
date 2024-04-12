@@ -466,6 +466,12 @@ Power of JS :
 
 # Equality Comparison 
 
+    Equality Algorithm
+    == isLooselyEqual
+    === isStrictlyEqual
+    +0 , -0 is SameValueZero
+    object.is is sameValue
+
     == vs === and Object.is
 
         == Loose equality , only check value not type 
