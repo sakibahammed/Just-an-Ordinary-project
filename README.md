@@ -493,3 +493,12 @@ Power of JS :
     Object.is()
 
             This method performs a strict equality check like ' ===' , but it treats -0 & +0 as different and treat NaN as equal to itself.
+
+
+
+
+# Control Flow
+
+    How computer runs code from up to down , top to bottom.
+
+    
