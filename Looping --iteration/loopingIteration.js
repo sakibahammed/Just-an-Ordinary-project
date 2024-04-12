@@ -69,3 +69,17 @@ for(friend of friends){
     }
 
 
+
+    // labeled Statements : 
+
+
+    outerLoop: for(let i=0;i<3;i++){
+        innerLoop: for(let j=0;j<3;j++){
+            // break outerLoop; // this brake both outer loop not only inner loop,;
+            break innerLoop;
+        }
+
+        console.log(i);
+    }
+
+

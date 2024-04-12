@@ -462,6 +462,18 @@ Power of JS :
         while loop : you know while loop
         do while loop : you know also
 
+# Labeled Statemens     
+
+    Control loop.. if we have multiple loop. and we want to control a specific loop than we should use labeled statement , 
+
+        outerLoop: for (let i = 0; i < 3; i++) {
+  innerLoop: for (let j = 0; j < 3; j++) {
+    if (i === 1 && j === 1) {
+      break outerLoop; // This will break out of the outer loop when i is 1 and j is 1
+    }
+    console.log(`i = ${i}, j = ${j}`);
+  }
+}
 
 
 # Equality Comparison 
@@ -501,4 +513,16 @@ Power of JS :
 
     How computer runs code from up to down , top to bottom.
 
+
+# Conditional Statement 
+     
+    -- if.. else
+    -- Switch 
+
+    --if else : 
+
+        everyone knows about this thing
     
+    -- Switch : 
+
+        Everyone knows about it also.
