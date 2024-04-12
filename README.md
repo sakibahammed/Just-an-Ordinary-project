@@ -463,3 +463,27 @@ Power of JS :
         do while loop : you know also
 
 
+
+# Equality Comparison 
+
+    == vs === and Object.is
+
+        == Loose equality , only check value not type 
+
+        like 1 == '1' // true
+
+        === strict equality , check both value and value type
+
+        1 === '1' // false;
+
+
+        another factor this things , in === , Js tries convert both using coercion. 
+
+
+        like 0 == false // true;
+
+
+
+    Object.is()
+
+            This method performs a strict equality check like ' ===' , but it treats -0 & +0 as different and treat NaN as equal to itself.
