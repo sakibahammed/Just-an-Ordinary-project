@@ -536,8 +536,58 @@ Power of JS :
 
     Finally - if the code is wrong in the try block or not we need to do this part here. We need to clear up.
 
-    Throw - We can manually throw erroe here and the catch block will do the rest. 
+    Throw - We can manually throw error here and the catch block will do the rest. The throw statement throws a user-defined exception. Execution of the current function will stop (the statements after throw won't be executed), and control will be passed to the first catch block in the call stack. If no catch block exists among caller functions, the program will terminate.
 
-    
 
-    
+
+
+
+    I need to grind in exception handeling a way more.
+
+
+
+
+
+
+
+# Expression and Operators 
+
+     Any valid unit or code that resolves to a value.    
+
+
+# Expression 
+
+    it can be anything ( single value , variable , operator , )
+
+
+        5 // number  ,  'Hello' // String  , true // Boolean
+
+        anything can be a expression. like function , operation , variables
+
+
+# Operator 
+
+    Perform operation on operands. 
+
+
+# Arithmetic Operators 
+
+    + , - , / , %
+
+# Assignment Operators 
+
+    = ,+= , -= , /= , %= , *=
+
+# Comparison Operators 
+
+    == , === , != , !== , > , < , >= , <=
+
+# Logical Operator 
+
+    && , || , ! 
+
+# Unary Operator 
+
+    ++ , --
+
+
