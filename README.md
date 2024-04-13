@@ -588,6 +588,26 @@ Power of JS :
 
 # Unary Operator 
 
-    ++ , --
+    ++ , -- ( 
+        ++ == Incrementing operator
+        -- == Decrementing operator
 
+        these are unary operator
+    )
+
+
+# Ternary Operator 
+
+    How the heck ternary operator works? 
+
+    condition ? (if condition met than this will portion will execute) : (or this code will execute);
+
+# Bitwise Operators 
+
+    & // AND
+    | // Or
+    ^ // XOR
+    ~ // NOT
+    << // left shift
+    >> // right shift
 
