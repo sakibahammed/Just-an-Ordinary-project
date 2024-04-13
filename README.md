@@ -525,4 +525,19 @@ Power of JS :
     
     -- Switch : 
 
-        Everyone knows about it also.
+        Everyone knows about it also
+
+
+# Exception Handling 
+
+    Try - in this code block , it can occur problem or go wrong. put the risky action in the try block
+
+    Catch - Work as a safety net. if the code inside the try dont work , catch handel this things.
+
+    Finally - if the code is wrong in the try block or not we need to do this part here. We need to clear up.
+
+    Throw - We can manually throw erroe here and the catch block will do the rest. 
+
+    
+
+    
