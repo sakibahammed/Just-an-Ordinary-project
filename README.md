@@ -588,6 +588,7 @@ Power of JS :
 
 # Unary Operator 
 
+    delete , void , typeOf
     ++ , -- ( 
         ++ == Incrementing operator
         -- == Decrementing operator
@@ -596,7 +597,7 @@ Power of JS :
     )
 
 
-# Ternary Operator 
+# Ternary Operator / Conditional Operator
 
     How the heck ternary operator works? 
 
