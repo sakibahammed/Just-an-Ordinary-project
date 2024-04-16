@@ -112,3 +112,91 @@ console.log('hello'+ ' mom');
     // conditon ? val : val1
 
 const vote = age > 18?"you can vote" : "You can vote but you have to do politics";
+
+
+
+
+
+// Comma Operator :
+
+//  Allows to perform multiple Operation in a single statement , also important to use it measured to maintain code clarity.
+
+//example : 
+
+    let x = (5+3 , 7-2)
+
+    console.log(x);
+// what the heck 
+
+    /*In this example, (5 + 3, 7 - 2) is evaluated. First, 5 + 3 is calculated, but since the result is not used, it's discarded. Then, 7 - 2 is calculated, and its result (5) becomes the value of x. */
+
+
+
+// Most common use case : 
+
+    // for loop()
+
+    for(let i=1;i<=10;i++){
+        console.log(i);
+    }
+
+
+//Unary Operator
+
+    // Unary plus (+) and minus (-)
+
+    let ux = '5';
+    console.log(+ux); //Convert string to number
+
+    let uy = '5';
+    console.log(-uy); //Covert string to number also. negates the number
+
+    //increment and decrement 
+
+    let ua = 5;
+
+    let ub = 6;
+
+    console.log(ua++);
+    console.log(++ua);
+
+    console.log(ub++);
+    console.log(++ub);
+
+
+
+    let o = 1;
+    let oo = o++;
+    console.log(oo);
+
+
+
+    // decrement
+
+    let b = 10;
+    console.log(b--);
+    console.log(--b);
+
+
+    // Logical NOT (!)
+
+    let isTrue = true;
+
+    console.log(isTrue);
+    console.log(! isTrue);
+
+
+    // typeOf operator 
+
+    let cm = 5;
+
+    console.log(typeof cm);
+
+
+    // void operator 
+
+    let result = void(5+3);
+    console.log(result); // void operator returns undefined by default way 
+
+
+
