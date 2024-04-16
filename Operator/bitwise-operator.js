@@ -40,4 +40,15 @@ console.log(5 & 0);
 
 
 
+// XOR (^)
 
+
+    /*
+    
+        This operator perform a bitwise exclusive OR operation on two number. It compares each bit of the two numbers and produces a result where corresponding bits are set to 1 if they are different. 
+
+
+    */
+
+
+    console.log(5 ^ 3);
