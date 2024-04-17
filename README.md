@@ -612,3 +612,9 @@ Power of JS :
     << // left shift
     >> // right shift
 
+   
+
+
+   # Function Hoisting 
+
+    Hoisting is the thing we both know how it works. 
