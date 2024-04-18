@@ -633,4 +633,14 @@ Power of JS :
 
     a function can refer to and call itself. Recursion is analogous to a loop. Both execute the same code multiple time/ and required a condition to break the loop. 
 
+# Nested Functions and Closure
+
+    Nest a function within another function. The nested function is private to its containing function also forms a closure. 
+
+
+    A closure is an expression commonly , a function that can have free variables together with an environment that bindes those variables.(that closes the expression)
+
+
+# Closure 
     
+
