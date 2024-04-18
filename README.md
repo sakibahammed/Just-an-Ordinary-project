@@ -615,6 +615,22 @@ Power of JS :
    
 
 
-   # Function Hoisting 
+# Function Hoisting 
 
     Hoisting is the thing we both know how it works. 
+
+    Hoisting means that before executing the code, the interpreter moves the declarations of functions, variables, classes, or imports to the top of their scope.   
+
+# Scope and the function stack 
+
+    reffer to and call itself.
+
+        1. Function's name
+        2. argument.callee
+        3. An in-scope variable that refers to the function.
+
+# Recursion 
+
+    a function can refer to and call itself. Recursion is analogous to a loop. Both execute the same code multiple time/ and required a condition to break the loop. 
+
+    
