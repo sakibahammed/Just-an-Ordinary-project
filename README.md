@@ -642,5 +642,17 @@ Power of JS :
 
 
 # Closure 
-    
+
+    A closure in JavaScript is a function that has access to its own scope, the outer function's scope, and the global scope. In simpler terms, a closure is created when a function "remembers" its surrounding context (enclosing lexical environment) even when it is executed outside that context.
+
+
+    --- Closure in More easy way to understand :
+
+        
+
+    Closure enable functions to retain access to variables defined in the outer function even after the outer function has finished executing. 
+
+
+    Closure is used for data privacy , event handling and asynchronous programming.
+
 
