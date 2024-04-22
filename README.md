@@ -648,11 +648,11 @@ Power of JS :
 
     --- Closure in More easy way to understand :
 
-        
+        //Closure is 
 
     Closure enable functions to retain access to variables defined in the outer function even after the outer function has finished executing. 
 
 
-    Closure is used for data privacy , event handling and asynchronous programming.
+    Closure is used for data privacy , event handling and asynchronous programming. Works good with privacy
 
 
