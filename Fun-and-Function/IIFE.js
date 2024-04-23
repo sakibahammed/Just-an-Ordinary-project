@@ -45,4 +45,10 @@
 
 
 
-    
+    // Module pattern 
+
+    const makeWithdraw = (balance)=>{
+        ((copyBalance)=>{
+            let balance = copyBalance //private variable
+        })
+    }
