@@ -704,5 +704,32 @@ Power of JS :
 
 
 
+# Scope and function stack : 
+
+    Scope : A space / environment in which a particular variable or function can ba accessed or used . 
+
+    Global Scope : Default scope for all code running in script mode. 
+
+    Module Scope : The scope for code running in module mode .
+
+    Function Scope : the scope created with a function.
+
+    Block scope : The scope created with a pair of curly braces (a block). 
+
+
+# Function Stack (Call stack) : 
+
+    The function stack is how the interpreter keeps track of its place in a script that calls multiple functions , like which function is currently executing and which function within that function are being called. 
+
+
+
+
+
+# Call stack : 
+
+        Call stack is a mechanism for an interpreter to keep track of its place in a script that calls the multiple function. 
+        
+    
+
 
     
