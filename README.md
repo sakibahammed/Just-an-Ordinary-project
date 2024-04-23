@@ -656,3 +656,25 @@ Power of JS :
     Closure is used for data privacy , event handling and asynchronous programming. Works good with privacy
 
 
+
+# IIFE : Immediately invoked function expression 
+
+    a javascript function that runs as soon as it is defined. 
+    
+    self executing anonymous function .
+    02 mazor parts : 
+
+
+        1. Anonymous function with lexical scope enclosed within the grouping_operator(). prevents accessing variables within IIFE idiom as well as polluting the global scope.
+
+        2. Second part creates the immediately invoked function expression() through which the js engine will directly interpret the function. 
+
+
+    use case : 
+
+    -    avoid polluting the global namespace. 
+    -    execute an async function. 
+    -    the module pattern
+    -    for loop with var before ES6
+    
+
