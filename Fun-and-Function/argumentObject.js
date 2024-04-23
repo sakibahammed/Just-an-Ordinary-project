@@ -12,7 +12,7 @@ func1(1,3,4)
 // arguments is an array like object accessible inside function that contains the values of the arguments passed to that function. 
 
 
-// more simple way : argument is like the parameter of a function.
+// more simple way : argument is like the parameter of a function that function use .
 
 
 
