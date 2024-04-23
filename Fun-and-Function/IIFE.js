@@ -16,3 +16,14 @@
     (async ()=>{
         console.log('hello mom');
     })();
+
+
+
+    // avoid polluting the global namespace : 
+
+    (()=>{
+        let firstVariable;
+        let lastVariable;
+    })();
+
+    // console.log(firstVariable); cannt access
