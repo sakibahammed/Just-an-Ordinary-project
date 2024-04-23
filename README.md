@@ -676,5 +676,33 @@ Power of JS :
     -    execute an async function. 
     -    the module pattern
     -    for loop with var before ES6
-    
 
+
+# The Arguments object : 
+
+    Argument is and array like object accessible inside function that contains the value of the arguments passed to that function. 
+
+
+    The argument object is a local variable available within all non-arrow functions. refer to a function argument inside that function by using its argument object. It has entries for each argument the function was called with , with the first entry;s index at 0.
+
+    the argument object is useful for function called with more argument than they are formally declared to accept , called variadic function. such as math.min().
+
+    we can use argument.length to count how many argument the function was called with. 
+
+
+    Assingning to indices : 
+
+        each argument index can also be set or reassigned : 
+
+        argument[1] = 'new value';
+
+    Non strict function that only have simple parameter (that is , no rest , default , or destructed parameter) will sync the new value of parameters with the arguments object and vice versa. 
+
+
+    for more read this : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments
+
+
+
+
+
+    
