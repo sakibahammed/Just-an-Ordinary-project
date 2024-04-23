@@ -31,16 +31,16 @@
 
     // executing an async function : 
 
-        const getFileStream = async (url)=>{
+        // const getFileStream = async (url)=>{
             
-        }
+        // }
 
-        (async ()=>{
-            const stream = await getFileStream("https://domain.name/path/file.ext");
-            for await(const chunk of stream){
-                console.log({ chunk });
-            }
-        })();
+        // (async ()=>{
+        //     const stream = await getFileStream("https://domain.name/path/file.ext");
+        //     for await(const chunk of stream){
+        //         console.log({ chunk });
+        //     }
+        // })();
 
 
 
@@ -50,5 +50,21 @@
     const makeWithdraw = (balance)=>{
         ((copyBalance)=>{
             let balance = copyBalance //private variable
-        })
+            const doBadThing = ()=>{
+                console.log("I will do bad things with your money");
+            };
+            doBadThing();
+            return{
+                withdraw(amount){
+                    if(balance >= amount){
+                        balance -= amount;
+                        return balance;
+                    }
+                    return "insufficient money"; 
+                },
+
+            };
+        })(balance);
     }
+
+    const firstAccount = makeWithdraw(100)
