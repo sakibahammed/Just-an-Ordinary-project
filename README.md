@@ -818,3 +818,24 @@ In short, the call stack keeps track of what the program is doing and which func
         Global scope : The function can also access variables from the top level code that is not inside any function. 
 
     Lexical function is all about where the function is defined
+
+
+
+# Closure 
+
+    closure is the combination of a function bundeled together with reference to its surrounding stat. 
+
+
+    Closure gives the access to an outer function scope from an inner function. ..
+
+    A closure happens when a function remembers and keeps using variables from its outer function, even after the outer function is done running.
+
+
+    How Closure Work : 
+        1. Function inside a function,- define a function inside another function.
+        2. The inner function remember the variable from the outer function and can use them.
+        3. Using Closure : Even after the outer function is finished , the inner function still has access to the variable from the outer function.
+
+
+
+        ==> so the closure , is when an inner function keeps using the outer function's variables , even after the outer function is done running. This lets work with data from an outer function even after that function is gone.  
