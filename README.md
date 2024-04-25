@@ -855,3 +855,29 @@ In short, the call stack keeps track of what the program is doing and which func
 
     - https://dev.to/elpepebenitez/built-in-methods-in-javascript-4bll
 
+
+
+
+
+
+# Rest Parameters : 
+
+    Rest parameter allows a function to accept an indefinite number of argument as an array.
+
+    rest parameter allows to collect any number of argument passes to a function and put them in an array, 
+
+
+    - how the heck rest parameter works : 
+
+        Function with rest parameter : use three dots . (...) followed by name , in the function. 
+
+        Argument as an Array : arguments passed will be collected into an array using the name provided.
+
+        Using the array : We can use it inside the function. 
+
+        
+
+
+
+
+
