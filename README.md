@@ -817,5 +817,4 @@ In short, the call stack keeps track of what the program is doing and which func
 
         Global scope : The function can also access variables from the top level code that is not inside any function. 
 
-
-        
+    Lexical function is all about where the function is defined
