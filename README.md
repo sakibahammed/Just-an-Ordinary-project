@@ -749,3 +749,42 @@ Power of JS :
         when the function finishes running, it is removes from the top of the call stack.
 
     
+
+    Think of the call stack like a stack of sticky notes on your desk:
+
+Function Call: When you call a function, it's like writing down a task on a sticky note and putting it on top of the stack.
+Function Runs: The function starts running and the program works on the task written on the top sticky note.
+Function Finishes: Once the function is done, the program removes that sticky note from the top of the stack and looks at the one below it.
+Next Function: The program keeps working through the sticky notes in order, from top to bottom.
+Here's an example to make it clearer:
+
+javascript
+Copy code
+function functionX() {
+    console.log("In function X");
+    functionY(); // Calls functionY
+    console.log("Back in function X");
+}
+
+function functionY() {
+    console.log("In function Y");
+    functionZ(); // Calls functionZ
+}
+
+function functionZ() {
+    console.log("In function Z");
+}
+
+// Let's start by calling functionX
+functionX();
+Here's what happens:
+
+You call functionX(), so a sticky note for function X goes on the stack.
+While in functionX(), you call functionY(). Now, a sticky note for function Y goes on top of the stack.
+In functionY(), you call functionZ(). So, a sticky note for function Z goes on top of the stack.
+Once functionZ() finishes running, the sticky note for function Z is removed from the stack.
+The program then goes back to the functionY sticky note and continues running functionY().
+Once functionY() finishes, its sticky note is removed from the stack.
+Now, the program is back to the functionX sticky note. It continues running functionX() and finishes.
+Finally, the functionX sticky note is removed from the stack.
+In short, the call stack keeps track of what the program is doing and which functions it needs to finish.
