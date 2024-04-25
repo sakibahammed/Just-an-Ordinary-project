@@ -731,9 +731,21 @@ Power of JS :
 
     In more easy way : 
 
-        Call stack is like a to-do list for functions. It helps the program
+        Call stack is like a to-do list for functions. It helps the program keep track of which function it is currently running and which function it meets to run next.
         
     
+    Stack of function : 
+        imagine a stack of plates. call stack works similarly, but instead of plates it holds functions. 
 
+    Function gets called :=
+
+        when we called a function the program puts it on top of the call stack. 
+
+    Function run :
+    
+     THe program runs the function thats on top of the call stack
+
+    Function finishes : 
+        when the function finishes running, it is removes from the top of the call stack.
 
     
