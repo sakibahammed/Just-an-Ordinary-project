@@ -788,3 +788,18 @@ Once functionY() finishes, its sticky note is removed from the stack.
 Now, the program is back to the functionX sticky note. It continues running functionX() and finishes.
 Finally, the functionX sticky note is removed from the stack.
 In short, the call stack keeps track of what the program is doing and which functions it needs to finish.
+
+
+# Recursion 
+
+    Recursion is a function recalling system.. 
+
+    Recursion is when a function call itself.
+
+
+
+    How the  heck this recursion works : 
+
+        1 . Task Repetition : 
+            The function does a task than call itself to the task again with different input.
+        2. Stopping point : at this segment function stop calling itself. 
