@@ -803,3 +803,19 @@ In short, the call stack keeps track of what the program is doing and which func
         1 . Task Repetition : 
             The function does a task than call itself to the task again with different input.
         2. Stopping point : at this segment function stop calling itself. 
+
+# Lexical Scope of function : 
+
+    A function can access variables from it own scope , the outer scope , and the outer function scope and global scope,
+
+        like :
+
+        Inside  the function : Variable defined within the function can be accessed inside the function.
+        outside of the function : The function can also access variables from the outer function. 
+
+        Outside the function : function can also access variables from the outer function.
+
+        Global scope : The function can also access variables from the top level code that is not inside any function. 
+
+
+        
