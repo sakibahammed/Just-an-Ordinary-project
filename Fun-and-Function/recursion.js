@@ -1,9 +1,9 @@
 function countdown(n){
     if(n<0){
-        return;
+        return; // stop the function segment
     }
     console.log(n);;
-    countdown(n-1);
+    countdown(n-1); // recursive call
 }
 
 
