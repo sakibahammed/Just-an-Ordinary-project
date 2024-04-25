@@ -839,3 +839,19 @@ In short, the call stack keeps track of what the program is doing and which func
 
 
         ==> so the closure , is when an inner function keeps using the outer function's variables , even after the outer function is done running. This lets work with data from an outer function even after that function is gone.  
+
+
+
+
+# Built in Function in Javascript : 
+
+    In JavaScript, built-in functions are functions provided by the language itself. These functions are part of JavaScript's standard library and are ready to use without needing to define. 
+
+    Follow these links:
+
+    - https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm
+
+    - https://www.tutorialride.com/javascript/javascript-built-in-functions.htm
+
+    - https://dev.to/elpepebenitez/built-in-methods-in-javascript-4bll
+
