@@ -876,6 +876,16 @@ In short, the call stack keeps track of what the program is doing and which func
         Using the array : We can use it inside the function. 
 
         
+# Asynchronous JavaScript - 
+
+    Asynchronous programming is a technique that enables to program to start a potential long running task and still be able to be responsive to other events while that task runs, rather than having
+    to wait until that task has finished. once that task has finished , program is presented with the result. 
+
+
+    asynchronous js allows to perform task without waiting for them to finish before moving to other task.. it also means like parallel programming. 
+
+    
+
 
 
 
