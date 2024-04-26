@@ -863,3 +863,40 @@ In short, the call stack keeps track of what the program is doing and which func
 
 
 
+# Callback Hell 
+
+    Callback hell is  a problem that arises in asynchronous programming when there are too many nested callbacks in code. 
+
+    This can lead to code that is difficult to understand and maintain.
+
+
+
+
+    - Understading Callbacks : 
+
+        - A callback is a function passed as an argument to        another function. 
+        - The callback is executed at a later time, often when an asynchronous operation completes. 
+        - Callback are widely used in event-driven programming. 
+
+    - Recognizing Callback hell : 
+
+
+        When callback hell occured : 
+
+            - Deep nesting : Callback occured when there is a deep nesting of callbacks, making code hard to follow.
+
+
+            - Complex control flow : The control flow of the program becomes complex and challenging to understand .
+
+
+            - Difficult Debugging : Debugging deeply nested callbacks can be challenging becaus stack traces can become convoluted. 
+
+            
+            - Difficult Error Handling : Error handling becomes complex, especially if there are errors at different levels of the chain. 
+
+
+
+
+
+
+    
