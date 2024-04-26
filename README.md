@@ -904,7 +904,12 @@ In short, the call stack keeps track of what the program is doing and which func
       console.log("This happens after 2 seconds");
     }, 2000);
 
-    console.log("End"); 
+    console.log("End");
+
+    check on this link for more : 
+    https://developer.mozilla.org/en-US/docs/Web/API/setTimeout
+
+     
 
 
 
