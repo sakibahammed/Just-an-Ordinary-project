@@ -909,7 +909,30 @@ In short, the call stack keeps track of what the program is doing and which func
     check on this link for more : 
     https://developer.mozilla.org/en-US/docs/Web/API/setTimeout
 
-     
+
+
+# Set interval and clear interval : 
+
+    Setinterval execute a function repeatedly at a specified interval (in millisecond) . This function allows to run a particular block of code at regular intervals. 
+
+
+    ==> how the heck setInterval works ;
+
+    let intervalId = setInterval(callBackfunction, intervalinMillisecond);
+
+    callBackFunction is the function that execute repeatedly. 
+
+    Stopping the interval.. ==> clearInterval()
+    
+
+    - Use setInterval to execute a function at regular intervals
+    - Pass the function you want to execute as the first argument and the interval in milliseconds as the second argument.
+
+    - Use clearInterval to stop the interval when needed.
+
+
+
+
 
 
 
