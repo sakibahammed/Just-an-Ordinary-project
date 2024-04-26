@@ -886,7 +886,11 @@ In short, the call stack keeps track of what the program is doing and which func
 
 
 
-# SetTimeout : 
+# SetTimeout :
+
+    setTimeout is an asynchronous function. that means , the time function will not pause execution of other function in the function stack.
+
+    It cannot be used as a pause
 
     - delay a function's execution for a specified amount of time . 
 
@@ -901,6 +905,8 @@ In short, the call stack keeps track of what the program is doing and which func
     }, 2000);
 
     console.log("End"); 
+
+
 
 
 
