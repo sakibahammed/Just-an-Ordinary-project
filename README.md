@@ -122,9 +122,6 @@ Power of JS :
 
     Originated from ES11+ represent whole larger than the maximum safe integer provided by the number type
 
-
-
-
 # Object Object Object
 
     - Non Primitive Data type.
@@ -396,8 +393,6 @@ Lets imagine , we have some toys , Each toy has some special ability like they c
 # Type Conversion
 
         Means transfer of data from one data type to another . Here implicit conversion happend when the compiler (for complied language) or runtime (or script language like Javascript)
-
-
 
 # Explicit Type Casting (Coercion)
 
@@ -800,8 +795,6 @@ In short, the call stack keeps track of what the program is doing and which func
 
         Using the array : We can use it inside the function.
 
-
-
 # Asynchronous JavaScript -
 
     Asynchronous programming is a technique that enables to program to start a potential long running task and still be able to be responsive to other events while that task runs, rather than having
@@ -861,27 +854,25 @@ In short, the call stack keeps track of what the program is doing and which func
 
     Now, your parent tells you, "When the cookies are done baking, I will call you back inside." This is like a callback function!
 
+# Callback Hell
 
-
-# Callback Hell 
-
-    Callback hell is  a problem that arises in asynchronous programming when there are too many nested callbacks in code. 
+    Callback hell is  a problem that arises in asynchronous programming when there are too many nested callbacks in code.
 
     This can lead to code that is difficult to understand and maintain.
 
 
 
 
-    - Understading Callbacks : 
+    - Understading Callbacks :
 
-        - A callback is a function passed as an argument to        another function. 
-        - The callback is executed at a later time, often when an asynchronous operation completes. 
-        - Callback are widely used in event-driven programming. 
+        - A callback is a function passed as an argument to        another function.
+        - The callback is executed at a later time, often when an asynchronous operation completes.
+        - Callback are widely used in event-driven programming.
 
-    - Recognizing Callback hell : 
+    - Recognizing Callback hell :
 
 
-        When callback hell occured : 
+        When callback hell occured :
 
             - Deep nesting : Callback occured when there is a deep nesting of callbacks, making code hard to follow.
 
@@ -889,14 +880,28 @@ In short, the call stack keeps track of what the program is doing and which func
             - Complex control flow : The control flow of the program becomes complex and challenging to understand .
 
 
-            - Difficult Debugging : Debugging deeply nested callbacks can be challenging becaus stack traces can become convoluted. 
-
-            
-            - Difficult Error Handling : Error handling becomes complex, especially if there are errors at different levels of the chain. 
+            - Difficult Debugging : Debugging deeply nested callbacks can be challenging becaus stack traces can become convoluted.
 
 
+            - Difficult Error Handling : Error handling becomes complex, especially if there are errors at different levels of the chain.
 
 
 
 
+    Read this for more about callback hell :
+
+    https://javascript.info/callbacks#pyramid-of-doom
+
+
+
+    - How to fix callback hell :
+
+        Promises: Promises provide a cleaner way to handle asynchronous operations and avoid deep nesting.
+
+    - Async/Await: This syntax built on top of promises allows asynchronous code to be written more linearly.
     
+    - Modularizing Code: Breaking down complex code into smaller,    more manageable functions can help.
+    
+    - Error Handling: Proper error handling techniques such as try/catch blocks (with promises) can improve code readability.
+   
+    - Control Flow Libraries: Some libraries (e.g., async.js) provide higher-level abstractions to manage asynchronous control flow.
