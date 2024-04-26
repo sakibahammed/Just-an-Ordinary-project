@@ -884,7 +884,24 @@ In short, the call stack keeps track of what the program is doing and which func
 
     asynchronous js allows to perform task without waiting for them to finish before moving to other task.. it also means like parallel programming. 
 
-    
+
+
+# SetTimeout : 
+
+    - delay a function's execution for a specified amount of time . 
+
+    - takes a function and a delay in milli-second.
+
+    - function execute after the specified delay.
+
+    console.log("Start");
+
+    setTimeout(() => {
+      console.log("This happens after 2 seconds");
+    }, 2000);
+
+    console.log("End"); 
+
 
 
 
