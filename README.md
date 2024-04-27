@@ -936,3 +936,34 @@ In short, the call stack keeps track of what the program is doing and which func
         
     So , promise help to ask somthing.. wait for it , do other things while you wait like drink milk or other activity etc etc.. but if fall in a problem it will say sorry. if not then get the cookie and do things you love. 
 
+
+
+# async & await ; 
+
+    async and await are keywords used in programming language like javascripit , and python to handel asynchronous programming more easily and readably. 
+
+
+    asynchronous programming allows a program to execute tasks without waiting for each one to complete before moving on to the next. it helps in making programme more efficient especially when dealing with time consuming task lke making network.
+
+
+
+    ==> Async keyword : 
+
+            - Use async keyword to define an asynchronous function.
+            - An asynchronous function can use await inside it to wait for promise to resolve.
+            - When you call an async function in returns a promise .
+
+
+    ==> Await keyboard : 
+
+            - Await keyword is used inside an async function to wait for a promise to resolve. 
+
+            - It pauses the execution of the async function untull the promise resolve . 
+
+
+    How the heck they help : 
+
+        - Improved Readability : Async and Await make asynchronous code look similar to synchronous code which make it easier to understand.
+
+        - Efficiency : Programme can handle other task while waiting for and async operation to complete. 
+
