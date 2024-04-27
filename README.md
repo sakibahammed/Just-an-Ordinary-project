@@ -1047,4 +1047,3 @@ In short, the call stack keeps track of what the program is doing and which func
     5. Optional: Sending Data with a POST request : if you want to send data with a request ( for example , using POST method ), you need to set the request (for example , using the POST method) , you need to set the request headers and include the data in the send() method. 
 
     6. Handling CORS : If you are making requests to a different domain ( cross - origin requests ) , you may need to handle CORS policies. The server should return appropriate headers to allow cross-origin requests. 
-
