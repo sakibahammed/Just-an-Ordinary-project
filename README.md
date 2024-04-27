@@ -1021,4 +1021,12 @@ In short, the call stack keeps track of what the program is doing and which func
 
 #  XMLHttpRequest 
 
-        
+    An XMLHttpRequest (XHR) is an API provided by web browsers that allows web developers to send HTTP requests and receive HTTP response. 
+
+
+
+    key feature of XMLHttpRequest : 
+
+        Asynchronous Communication ,HTTP Methods , Request Headers , Response Handling , Cross-origin request , 
+
+
