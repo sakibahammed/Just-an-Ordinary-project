@@ -967,3 +967,40 @@ In short, the call stack keeps track of what the program is doing and which func
 
         - Efficiency : Programme can handle other task while waiting for and async operation to complete. 
 
+
+
+
+# API
+
+    API stands for Application Programming Interface.
+
+    API allow different software to communicate and share data. 
+
+    Key Concept of API : 
+
+        HTTP Method : 
+
+            - GET : Retrieve data from an API
+            - POST : Send data to an API to create a resource
+            - PUT : Update an existing resource
+            - Delete : Remove an resource
+
+        API Endpoint : 
+
+            An endpoint is a URL that represents a specific resource or action provided by an API
+
+        JSON : Javascript Object Notion.
+
+
+
+    Handling Errors and Responses : 
+
+        - Response Status Code : Always check response code of API.
+        - Error Handling : Use'try/catch' block to handle error when making requests. If the request fails it will handle the error gracefully. 
+
+
+    Working with JSON Data : 
+
+        API Often return data in JSON format( structured data format)
+        # use response.json() to parse tha JSON data
+        # 
