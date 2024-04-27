@@ -934,13 +934,13 @@ In short, the call stack keeps track of what the program is doing and which func
         -- Chaining promise : Sometime after you get the cookie, you do what you want to do.. you can ask for milk or anything you might like...
 
         
-    So , promise help to ask somthing.. wait for it , do other things while you wait like drink milk or other activity etc etc.. but if fall in a problem it will say sorry. if not then get the cookie and do things you love. 
+    So , promise help to ask something.. wait for it , do other things while you wait like drink milk or other activity etc etc.. but if fall in a problem it will say sorry. if not then get the cookie and do things you love. 
 
 
 
 # async & await ; 
 
-    async and await are keywords used in programming language like javascripit , and python to handel asynchronous programming more easily and readably. 
+    async and await are keywords used in programming language like javascript , and python to handel asynchronous programming more easily and readably. 
 
 
     asynchronous programming allows a program to execute tasks without waiting for each one to complete before moving on to the next. it helps in making programme more efficient especially when dealing with time consuming task lke making network.
@@ -958,7 +958,7 @@ In short, the call stack keeps track of what the program is doing and which func
 
             - Await keyword is used inside an async function to wait for a promise to resolve. 
 
-            - It pauses the execution of the async function untull the promise resolve . 
+            - It pauses the execution of the async function until the promise resolve . 
 
 
     How the heck they help : 
@@ -1029,4 +1029,22 @@ In short, the call stack keeps track of what the program is doing and which func
 
         Asynchronous Communication ,HTTP Methods , Request Headers , Response Handling , Cross-origin request , 
 
+
+   1. Creating an XMLHttpRequest Object : 
+   
+     To start , create an instance of the ' XMLHttpRequest ' object.
+
+   2. Setting up the Request :
+    
+     You need to configure the request. This involves specifying the HTTP method .
+
+   3. Setting Up the Event Handlers : 
+
+     You can set up event handlers to handle different stages of the request = (onload) , When the request complete successfully , 'onerror' , 'onreadyStatechange' for when the request's state changes .
+
+    4. Sending the request : Once the request is set up and the event handlers are configured , you can send the request.
+
+    5. Optional: Sending Data with a POST request : if you want to send data with a request ( for example , using POST method ), you need to set the request (for example , using the POST method) , you need to set the request headers and include the data in the send() method. 
+
+    6. Handling CORS : If you are making requests to a different domain ( cross - origin requests ) , you may need to handle CORS policies. The server should return appropriate headers to allow cross-origin requests. 
 
