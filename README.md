@@ -905,3 +905,34 @@ In short, the call stack keeps track of what the program is doing and which func
     - Error Handling: Proper error handling techniques such as try/catch blocks (with promises) can improve code readability.
    
     - Control Flow Libraries: Some libraries (e.g., async.js) provide higher-level abstractions to manage asynchronous control flow.
+
+
+
+
+
+# What the heck is Promise in Javascript 
+
+    - fun staffs. 
+
+    imagine , you asked your friend for a cookie,but he didn't have those with him that moment.. So he promise to give the cookie later. so you had to wait... 
+
+
+    Promise in javascript is like kinda work like that way , 
+
+        Its a fun way to say , " Hey I don't have this thing right now, But i'll get it for you later. ",
+    
+    How the heck this thing work : 
+
+        -- Creating a Promise : its like a promise , " i promise ill give you the cookie when i ll have one for myself "
+
+        -- Waiting for the promise : While you wait for the cookie, you can do other things.
+
+        -- When the promise is ready : When you get the cookie , you are happy.
+
+        -- if there is a problem : Sometimes you might not get the cookie . In that case they tell you sorry. then you know that something is wrong.. 
+
+        -- Chaining promise : Sometime after you get the cookie, you do what you want to do.. you can ask for milk or anything you might like...
+
+        
+    So , promise help to ask somthing.. wait for it , do other things while you wait like drink milk or other activity etc etc.. but if fall in a problem it will say sorry. if not then get the cookie and do things you love. 
+
