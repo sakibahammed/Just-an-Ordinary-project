@@ -1002,5 +1002,17 @@ In short, the call stack keeps track of what the program is doing and which func
     Working with JSON Data : 
 
         API Often return data in JSON format( structured data format)
+        
         # use response.json() to parse tha JSON data
-        # 
+        
+        # To send data in JSON format (example : POST request), convert js object to a JSON string using , 
+        
+        JSON.stringify()
+
+
+    Quick Advice : 
+
+        * Read API documentation
+        * Check the response header
+        * Manage Authentication.
+
