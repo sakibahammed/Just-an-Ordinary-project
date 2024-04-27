@@ -1016,3 +1016,9 @@ In short, the call stack keeps track of what the program is doing and which func
         * Check the response header
         * Manage Authentication.
 
+
+
+
+#  XMLHttpRequest 
+
+        
