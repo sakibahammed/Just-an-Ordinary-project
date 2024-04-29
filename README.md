@@ -1079,6 +1079,16 @@ In short, the call stack keeps track of what the program is doing and which func
         Fetch is promise based and provides better alternative that can be easily used in service workers. Fetch also integrates advances HTTP concepts such as CORS ( Cross Origin request ) .. 
 
 
+        fetch method can accept a second parameter an object that allows you to control a number of different settings,
+
+        no-cors only allows a limited set of headers in the request : 
+
+         -  Accept
+         - Accept Language 
+         - Content Language
+         - Content type with a value of application
+
+
 
 
 
