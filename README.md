@@ -1062,12 +1062,21 @@ In short, the call stack keeps track of what the program is doing and which func
 
     # Request Headers : You can set custom request headers.
 
-    # Response Handling : You can handle responsees in various formats such as JSON , XML or plain text.
+    # Response Handling : You can handle responses in various formats such as JSON , XML or plain text.
 
     # Cross-Origin Request : Allows you to make requests to a different domain, but you need to handle cross origin resource sharing (CORS) policies.
 
 
+# Fetch API : 
 
+    Fetch API provides a javascript interface for accessing and manipulating parts of the protocol, such as request and responses. It also provides a global fetch() method that provides an easy logical way to fetch resources asynchronously across the network. 
+
+
+    Difference between Fetch API and XMLHttpRequest : 
+
+        XMLHttPRequest is a callback-based API
+
+        Fetch is promise based and provides better alternative that can be easily used in service workers. Fetch also integrates advances HTTP concepts such as CORS ( Cross Origin request ) .. 
 
 
 
