@@ -1152,4 +1152,8 @@ In short, the call stack keeps track of what the program is doing and which func
 
 
 
+        for more read this article in MDN web docs.
+
+
+
 
