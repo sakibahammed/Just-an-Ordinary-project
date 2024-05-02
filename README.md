@@ -1097,6 +1097,58 @@ In short, the call stack keeps track of what the program is doing and which func
 
     
 
+# Strict Mode in Javascript 
+
+    Hard Term : 
+
+        Strict mode is a way to enforce a stricter version of the language which can help to catch common coding errors and unsafe actions that could lead to bugs. 
+        
+        
+        When a script or a function is in a strict mode , It operates under a restricted Set of rules that changes the behavior of the language in a few key ways : 
+
+            - Elimination of silent errors : 
+            
+                     Strict mode throws exceptions for certain code patterns that javascript would normally ignore, such as assigning values to undeclared variables.
+
+            - Disallowed Syntax : 
+            
+                    Certain syntax that might be problematics or unclear is disallowed in strict mode. For instance , `with` statement are not allowed.
+
+            - Prohibits the use of `this` in global context : 
+            
+                    In a function , when in strict mode the value of `this` will be undefined rather than the global object `window` in a browser environment. 
+
+
+            - No duplicate properties : 
+
+
+                    in object literals, duplicate property names are not allowed, which helps avoid confusion and bugs
+
+            
+            - No octal literals : 
+
+                    Strict mode disallows the use of octal literals example : var num = 010;
+
+            - Argument object changes : 
+
+                    Strict mode affects the behavior of the arguments object , making it separate from the function's parameters.
+            
+            - Reserved words : 
+
+
+                    Certain words that might be reserved for future use are disallowed as variable names, parameter names, function names.
+
+
+        Easy way : 
+
+            Lets try this in another way , Imagine you have a big box of toy and wanna play with them nicely. " strict mode " is like a set of rules that helps you be careful with your toys. if you make  a mistake,  strict mode tells you so you can fix it.
+
+            like , If you accidentally try to play with a toy, you don't have yet strict mode will give a warning and stop playing with that toy until you find it,
+
+            It also stops from mixing up your toys in a way that could problems later,
+
+
+            Strict mode is like a good helper that keeps on right path make sure all the code is safely and correctly.
 
 
 
