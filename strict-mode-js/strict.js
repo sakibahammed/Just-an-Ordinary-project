@@ -112,3 +112,23 @@ function myFunction(a,a){
     console.log(a,a);
 }
 
+
+
+//=====>>>. No octal literals : in normal case use of octal is allowed but in strict mode its not allowed 
+
+
+
+// const myNumber = 010;
+
+
+//===>>> Reserved words : 
+
+    // certain words are reserved for future use in js. so dont think about it in strict mode .
+
+
+    // let class = 5; // this will give you an error because class is a reserved word.
+
+
+
+
+
