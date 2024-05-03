@@ -1179,6 +1179,25 @@ In short, the call stack keeps track of what the program is doing and which func
 
 
 
+    Lets explore in in easy way : 
+
+    - When in the home , `this` refers to you . Similarly when have a function inside and object , `this` refers to the object.
+
+    - When in the School/ college/university , `this` refer to the class or other surroundings. In javascript. if u use a function (not an arrow function) outside of an object , `this` might be undefined (or a global object like `window`).
+
+    - Visiting a friend , If you are at a friend's house , you are a visitor. If you use an arrow function , `this` doesn't change wherever you use it . It sticks to where it was created. So if you make an arrow function inside and object , this would stay the same as the object.
+
+
+    - Someone calls you , When someone calls your name, you answer . In Javascript , If you attach an event listener to a buttone, for example `this` would be the button that was clicked .
+
+    - You as the creator of something , If you build something , you can see the final creation you made . Similarly , if you use a constructor function or a class to create an object , `this` refers to the new object you just made ...
+
+    `this` is like "who am I" depending on where you are in the code. Let me know if its help?
+
+
+
+    
+
 
 
 
