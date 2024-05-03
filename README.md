@@ -1196,6 +1196,12 @@ In short, the call stack keeps track of what the program is doing and which func
 
 
 
+
+# Explicit Binding
+
+    Related to `this` keyword
+
+
     
 
 
