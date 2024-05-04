@@ -1201,7 +1201,7 @@ In short, the call stack keeps track of what the program is doing and which func
 
     Related to `this` keyword;
 
-    hello
+    In javascript, explicit binding refers to the ability to define what the `this` keyword to within a function
 
 
     
