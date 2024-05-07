@@ -1232,6 +1232,8 @@ In short, the call stack keeps track of what the program is doing and which func
 
 # Function Borrowing 
 
+    Function borrowing allows us to use the methods of one object on a different object without having to make a copy of that method and maintain it in two separate places
+
     in simpler terms , 
 
         imagine you have 2 things , a robot and a dinosaurs . Robot knows how to move when pressing the button. but dino cann't move e finger.. 
