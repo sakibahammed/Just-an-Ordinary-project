@@ -1250,6 +1250,11 @@ In short, the call stack keeps track of what the program is doing and which func
         like robot move button for the dino
 
 
+        The benefit :  it allows to forego inheritance.
+
+        the most important practical application of function borrowing pertains to native methods and specifically , Array.prototype.slice().
+
+
 
 
 
