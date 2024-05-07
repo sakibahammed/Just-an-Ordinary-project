@@ -1201,9 +1201,34 @@ In short, the call stack keeps track of what the program is doing and which func
 
     Related to `this` keyword;
 
-    In javascript, explicit binding refers to the ability to define what the `this` keyword to within a function
+    In javascript, explicit binding refers to the ability to define what the `this` keyword to within a function by using the methods call() , apply() , bind().
 
-    helo
+    in more easy way ,  functions can use a special keyword called `this` to refer to the context they are running in. sometimes , you might want to control what `this` refers to and you can do that with methods like call() , apply() , bind()
+
+
+# call() 
+
+    the `call()` method allows to invoke a function with a specified value of `this` and arguments provided individually.
+
+    in more simpler way : 
+
+        call() method lets you run a function and choose what `this` should refer to.
+
+        you can pass arguments to the function one by one. 
+
+# apply()        
+
+    Similar to `call()` , but argument that is passed as an array() instead of one by one.
+
+
+
+# bind()
+
+    creates a new function with `this` set to a specific object choosed. 
+
+   the new function can be called later.
+
+  
 
 
     
