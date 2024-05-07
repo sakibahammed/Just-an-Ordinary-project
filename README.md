@@ -1236,7 +1236,7 @@ In short, the call stack keeps track of what the program is doing and which func
 
     in simpler terms , 
 
-        imagine you have 2 things , a robot and a dinosaurs . Robot knows how to move when pressing the button. but dino cann't move e finger.. 
+        imagine you have 2 things , a robot and a dinosaurs . Robot knows how to move when pressing the button. but dino can't move e finger.. 
 
         lets say you want the dino to move too.. what you can do?
 
