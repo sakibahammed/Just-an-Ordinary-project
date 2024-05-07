@@ -1228,7 +1228,31 @@ In short, the call stack keeps track of what the program is doing and which func
 
    the new function can be called later.
 
-  
+
+
+# Function Borrowing 
+
+    in simpler terms , 
+
+        imagine you have 2 things , a robot and a dinosaurs . Robot knows how to move when pressing the button. but dino cann't move e finger.. 
+
+        lets say you want the dino to move too.. what you can do?
+
+
+        you can do is , press the button on the robot  , to make the dino move around instead of the robot. this way the dino can move to
+
+        in javascript , Function borrowing works similarly.. you can take a method ( an action a program can perform ) from one object , like the robot and use it with another object like dino. 
+
+        The dino can move even though it doesn't have its own move button.
+
+        the .call() , .apply() , .bind() in the code is a way to borrow method from one object and use them with another.
+
+        like robot move button for the dino
+
+
+
+
+
 
 
     
