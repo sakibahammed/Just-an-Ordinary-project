@@ -24,4 +24,3 @@ console.log(completeMe.fullName.call(brokeMe));
     we went to first object (completeMe) call the function that use call method with broke me
 */
 
-//hello mom
