@@ -1214,7 +1214,6 @@ In short, the call stack keeps track of what the program is doing and which func
     Arrow functions are special and don't use their own `this`. They take `this` from where the function was created. 
 
 
-    
 
 
 
@@ -1277,6 +1276,49 @@ In short, the call stack keeps track of what the program is doing and which func
         The benefit :  it allows to forego inheritance.
 
         the most important practical application of function borrowing pertains to native methods and specifically , Array.prototype.slice().
+
+
+
+# Event loop
+
+
+    What the heck is Event Loop :   
+
+        Event loop is something , that pulls stuff out of the queue, and places it onto the function execution stack whenever the function stack becomes empty.
+
+        Its the secret by which Javascript gives us an illusion of being multithreaded even though it is single threaded.
+
+
+    Watch This video  :  https://www.youtube.com/watch?v=8aGhZQkoFbQ
+
+    Read this article : https://www.lydiahallie.com/blog/event-loop
+
+
+
+    Lets talk about this Event loop thing, with some analogy , 
+
+
+    Suppose, Javascript is a single worker in a bakery and he is slow and don't really know how to do multi tasking. He can only do one thing at a time . 
+
+    Just like javascript ,  can only execute one piece of code at a time .
+
+
+    ==> Task queue : The worker has a list of tasks (just like a todo list) that they need to complete one by one . The list is called the task queue in javascript. Each task is a piece of code that needs to be executed.
+
+
+    ==> Call Stack : The worker picks one task from the list and start working on it. This like the call stack in Javascript. The call stack is where each function or task is executed. 
+
+
+    ==> Web API : Sometimes the worker needs help with a task like baking a cake . So , they put the cake in the oven and fo back to their other tasks while the oven does its hjob. In javascript , the oven is like the web API. which handle tasks that takes time. (like fetching Data from the internet.)
+
+
+    ==> Callback Queue : Once the cake is ready the oven tells the worker , and they take it out. Similarly, when the web API finishes its job, it puts a callback function in the callback queue.
+
+
+    ==> Event Loop : The event loop is like the worker checking to see if there are any new tasks from the callback queue. waiting to be done. If there are , the worker will take them one by one and execute them. This ensures that tasks from the callback queue eventually get processed. 
+
+
+    Event loop actually keeps everything running smoothly. making sure the worker finishes task one at a time and that task from the callback queue get done when ready.
 
 
 
