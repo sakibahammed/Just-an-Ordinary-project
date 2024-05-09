@@ -61,3 +61,12 @@ myFunction();
 
 
 
+const car ={
+  make :'toyota',
+  model: 'Camry',
+  getDetails : function(){
+    return `this is a ${this.make} ${this.model}`
+  }
+}
+
+console.log(car.getDetails());
