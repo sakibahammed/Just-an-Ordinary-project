@@ -70,3 +70,18 @@ const car ={
 }
 
 console.log(car.getDetails());
+
+
+
+//using this keyword in a method : 
+
+  const toyCar={
+    color : 'red',
+    speed : 5,
+    drive: function(){
+      console.log(`this ${this.color} car is now drive in ${this.speed}`);
+    }
+  }
+
+
+  console.log(toyCar.drive());
