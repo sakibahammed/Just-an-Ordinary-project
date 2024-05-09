@@ -80,7 +80,7 @@ console.log(car.getDetails());
     speed : 5,
     drive: function(){
       console.log(`this ${this.color} car is now drive in ${this.speed}`);
-    }
+    } // In the drive method , `this` is like a pointer to the `toycar` object. It helps us talk about the car's color and speed
   }
 
 
