@@ -1188,11 +1188,33 @@ In short, the call stack keeps track of what the program is doing and which func
     - Visiting a friend , If you are at a friend's house , you are a visitor. If you use an arrow function , `this` doesn't change wherever you use it . It sticks to where it was created. So if you make an arrow function inside and object , this would stay the same as the object.
 
 
-    - Someone calls you , When someone calls your name, you answer . In Javascript , If you attach an event listener to a buttone, for example `this` would be the button that was clicked .
+    - Someone calls you , When someone calls your name, you answer . In Javascript , If you attach an event listener to a button, for example `this` would be the button that was clicked .
 
     - You as the creator of something , If you build something , you can see the final creation you made . Similarly , if you use a constructor function or a class to create an object , `this` refers to the new object you just made ...
 
     `this` is like "who am I" depending on where you are in the code. Let me know if its help?
+
+
+
+# Using `this` keyword in a Method : 
+
+    Simpler terms , : Lets think of an object as a car, It can have different parts like wheels and engine. and it can also do things like drive. The things the car can do are called methods. When you want the car to drive you can use a method like this.
+
+# Using `this` keyword in a function : 
+
+    If we use  `this` inside a regular function that's not in an object, it will behave differently . It might point to something different. like the global scope or even nothing. 
+
+
+# In event handlers : 
+
+    Event handlers are function that run when something happens ,  like clicking button. whwn an events happens , `this` points to the element that triggerd the event. 
+
+# In Arrow Function :
+
+    Arrow functions are special and don't use their own `this`. They take `this` from where the function was created. 
+
+
+    
 
 
 
