@@ -52,3 +52,15 @@ sakib.sayHi()
  *  - A new object is created.
  *  - The constructor runs with the given arguments and assign it to this.name.
  */
+
+
+// What the heck is class ? ===> Its a function.
+class MitthaSottiClass{
+    constructor(name){
+        this.name = name;
+    }
+    hello(){}
+}
+console.log(typeof MitthaSottiClass); // It returns a function.
+
+
