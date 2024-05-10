@@ -64,3 +64,13 @@ class MitthaSottiClass{
 console.log(typeof MitthaSottiClass); // It returns a function.
 
 
+// whats going on here ? 
+
+/**
+ * here MitthaSottiClass creates a function named user, that becomes the result of the class declaration. The function code is taken from the constructor method( assumed empty if we don't write such a method.)
+ * Stores class methods. such as , hello() in User.prototype.
+ 
+ */
+
+// Class is not just a syntactic sugar.
+
