@@ -1323,8 +1323,16 @@ In short, the call stack keeps track of what the program is doing and which func
 
 
 
+# Class
+
+    class basic syntax , 
+
+    when writting code or programme , we often need to create many object of the same kind like users, or goods or whatever. to solve or not to repeat same code again and again we can use class.  Constructor and new operator can help us with that. 
 
 
+    but modern Javascript , there are more advanced 'class' construct. that introduces great new feature which are useful for OOP.
+
+    What exactly a Class is : Its most likely a function.
 
     
 
