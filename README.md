@@ -1334,6 +1334,24 @@ In short, the call stack keeps track of what the program is doing and which func
 
     What exactly a Class is : Its most likely a function.
 
+
+    So Classes are in fact , "Special Function" , and just as  define , functional expression and function declaration , a class can be defined in two ways : a class expression or a class declaration.
+
+
+
+    in simpler Terms : 
+
+        Imagine you have a box called , "class". Inside the box, you can put all sorts of things that belong together.
+
+            like headphones , charger , laptop . 
+
+        these things are called "properties" and "methods"
+
+        Properties are like the characteristics of something.for example a headphone or charger might have properties like color , size and number of air tip. 
+
+        Now lets say you want to make a lot of headphone that all have same properties and methods. Instead of making each one from scratch, You can create a blueprint like a template.
+
+        The blue print is your class
     
 
 
