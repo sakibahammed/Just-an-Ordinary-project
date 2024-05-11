@@ -74,3 +74,5 @@ console.log(typeof MitthaSottiClass); // It returns a function.
 
 // Class is not just a syntactic sugar.
 
+
+
