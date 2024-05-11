@@ -68,8 +68,8 @@ class Headphone{
         console.log(this.color);
     }
 
-    set type(value){
-        this.type = value;
+    set color(value){
+        // this.color = value;
     }
 }
 
