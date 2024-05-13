@@ -1352,6 +1352,15 @@ In short, the call stack keeps track of what the program is doing and which func
         Now lets say you want to make a lot of headphone that all have same properties and methods. Instead of making each one from scratch, You can create a blueprint like a template.
 
         The blue print is your class
+
+
+
+
+
+
+# Iterator 
+
+    An iterator is an object that provides a way to access elements sequently in a collection, one at a time, . without needing to know the underlying structure of the collection.
     
 
 
