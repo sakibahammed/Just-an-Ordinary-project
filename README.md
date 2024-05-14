@@ -1361,6 +1361,15 @@ In short, the call stack keeps track of what the program is doing and which func
 # Iterator 
 
     An iterator is an object that provides a way to access elements sequently in a collection, one at a time, . without needing to know the underlying structure of the collection.
+
+    lets imagine it in a simpler terms, 
+
+        Think of an iterator as a box. You put your hand in and it gives you one item at a time. You don't need to know how it works inside. You just keep getting things until there are none left.
+
+
+        Iterators are just helpers that make it easy to do with the things ( or work with collections of data. ) one at a time,without worrying about how its done behind the scene .
+
+
     
 
 
