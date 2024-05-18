@@ -1,0 +1,3 @@
+// greeting.js
+
+function sayHello(){[;[[[]]]]}
