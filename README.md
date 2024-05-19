@@ -1371,6 +1371,28 @@ In short, the call stack keeps track of what the program is doing and which func
 
 
     
+# Common JS (CJS)
+
+    Common Js Modules are the original way to package code for
+    Node.js . Node.js also supports the ESModules standard used by browser and other JS runtimes. but CJS is still widely used in backend node.js applications. sometimes these modules will be written with .cjs extensions.
+
+    what the heck is CJS
+
+        - Suppose you have a big box of staffs and wanna do something or build something with those. Instead of dumping all the pieces on the floor, you can organize them into smaller boxes. Each box has pieces for a different part of the thing. 
+
+        CJS helps us organize code into small , manageable code into small , manageable pieces called modules.
+
+    
+    Modules in CommonJS : 
+
+        lets think about making or setup a device with some special pieces inside. Each module can do one specific thing. like building the device's display or part, 
+
+            In js , a module is a file with some code that does something specific.
+
+        How to create a module :
+
+            check common.js
+
 
 
 
