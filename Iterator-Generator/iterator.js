@@ -13,3 +13,4 @@ console.log(dispenser.next());
 console.log('Hello mom');
 console.log('Hello mom');
 console.log('Hello mom');
+console.log('Hello mom');
