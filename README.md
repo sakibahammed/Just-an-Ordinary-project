@@ -1401,3 +1401,8 @@ In short, the call stack keeps track of what the program is doing and which func
 
     As our application grows bigger , we want to split it into multiple files , so called 'modules'. A module may contain a class or a library of function for a specific purpose.  
 
+    A module is just a file. One script is one module.
+
+    or in easy way a module is a file that contains Javascript code. Unlike traditional scriupt modules can import and export values (such as functions object or primitives.) 
+
+    
