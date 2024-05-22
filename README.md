@@ -1397,4 +1397,7 @@ In short, the call stack keeps track of what the program is doing and which func
 
 
 
+# What the heck is Module : 
+
+    As our application grows bigger , we want to split it into multiple files , so called 'modules'. A module may contain a class or a library of function for a specific purpose.  
 
