@@ -1405,4 +1405,11 @@ In short, the call stack keeps track of what the program is doing and which func
 
     or in easy way a module is a file that contains Javascript code. Unlike traditional scriupt modules can import and export values (such as functions object or primitives.) 
 
-    
+
+
+
+
+# Garbage Collection : 
+
+
+    Memory management in Javascript is performed automatically and invisibly to us. We create primitives, object , functions..... all that takes memory.
