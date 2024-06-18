@@ -1,0 +1,9 @@
+lets think of a class as a blueprint for building a house ,  It has outlines the structures , like how many rooms there will be ,  what kind of doors and windows etc . 
+
+or
+
+think of class as a recipe for baking a cake. The recipe tells you how to make the cake . (ingredients & steps) and each cake you bake is an object created from that recipe .
+
+ 
+
+

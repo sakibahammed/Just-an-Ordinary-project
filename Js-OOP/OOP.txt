@@ -1,0 +1,20 @@
+what the heck is OOP?
+
+OOP is a programming thing , based on the concept of Object. These Objects can contain data , in the form of fields(like properties or attributes ) , and code in the form of methods(functions).
+
+
+lets do thing , like you are doing something with lego blocks , You have different sets like a house , a car , maybe a spaceship . Each set has its own unique pieces and instructions . 
+
+
+OOP in programming is kind of like doing something with LEGO . You create objects (lego models) using blueprints (called classes)  and these objects can have different abilities (methods) and characteristics (properties) . 
+
+
+concepts of OOP : 
+
+    - Objects and classes
+    - Inheritance 
+    - Encapsulation 
+    - Polymorphism
+    - Abstraction
+
+    
