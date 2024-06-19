@@ -1413,3 +1413,18 @@ In short, the call stack keeps track of what the program is doing and which func
 
 
     Memory management in Javascript is performed automatically and invisibly to us. We create primitives, object , functions..... all that takes memory.
+
+
+    Javascript automatically allocates memory when objects are created and frees it when they are not used anymore . This automatically is a potential source of confusion. It offers developer a false impression that they don't need to worry about memory management . 
+ 
+
+    Memory Life Cycle : 
+
+        - Allocate the memory you need. 
+        - Use the allocated memory (read , write)
+        - Release  the allocated memory when it is not needed anymore . 
+
+        2nd part is explicit in all language . The first and last parts are explicit in low level languages but are mostly implicit in high level language like javascript . 
+
+
+    
