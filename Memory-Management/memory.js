@@ -34,4 +34,8 @@ SVGGeometryElement.addEventListener(
 );
 
 
-//hello world
+// Allocation via function calls : 
+
+const d = new Date(); // allocate a Date object
+const e = document.createElement('div'); // Allocate a DOM element . 
+

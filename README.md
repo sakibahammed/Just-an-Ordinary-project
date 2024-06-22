@@ -1427,4 +1427,8 @@ In short, the call stack keeps track of what the program is doing and which func
         2nd part is explicit in all language . The first and last parts are explicit in low level languages but are mostly implicit in high level language like javascript . 
 
 
+    Allocation by function : 
+
+    Some function call result in object allocation. 
+    
     
