@@ -39,3 +39,20 @@ SVGGeometryElement.addEventListener(
 const d = new Date(); // allocate a Date object
 const e = document.createElement('div'); // Allocate a DOM element . 
 
+// Allocate a new values or objects : 
+
+const sa = 'azerty';
+const s2 = sa.substr(0,3);
+
+console.log(s2); // String are immutable values . 
+
+
+// concating two arrays . 
+
+
+const a2 = ['sakib','ahammed'];
+const a3 = ['tahia' , 'ahammed'];
+
+
+console.log(a2.concat(a3));
+
