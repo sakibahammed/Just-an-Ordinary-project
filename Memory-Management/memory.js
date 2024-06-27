@@ -55,4 +55,4 @@ const a3 = ['tahia' , 'ahammed'];
 
 
 console.log(a2.concat(a3));
-
+console.log(a2);
